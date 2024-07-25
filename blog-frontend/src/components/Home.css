@@ -1,0 +1,19 @@
+.home {
+    text-align: center;
+    padding: 2.5em;
+    background-color: rgb(66, 139, 164);
+    border-radius: 50px;
+    border: 10px solid #37a96a; /* added width and style to border property */
+}
+
+.home h1 {
+    margin-bottom: 0.5em;
+    font-family: Arial, sans-serif; /* added font family */
+    font-size: 2em; /* added font size */
+}
+
+.home p {
+    color: #125644;
+    font-family: Arial, sans-serif; /* added font family */
+    font-size: 1em; /* added font size */
+}

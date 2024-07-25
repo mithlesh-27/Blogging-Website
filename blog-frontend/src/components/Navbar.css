@@ -1,0 +1,30 @@
+nav {
+    background-color: #343a40;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff; /* Added a subtle border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a slight box shadow */
+}
+
+nav a {
+    color: #ffffff;
+    margin-right: 1em;
+    text-decoration: none; /* Removed default underline */
+    transition: color 0.2s ease-in-out; /* Added a smooth transition effect */
+}
+
+nav a:hover {
+    color: #baa345; /* Changed hover color to a lighter shade */
+    text-decoration: underline; /* Added underline on hover */
+}
+
+nav a:active {
+    color: #aaaaaa; /* Changed active color to a darker shade */
+}
+
+nav a:focus {
+    outline:none; /* Removed default outline */
+    box-shadow: 0 0 0 2px #ffffff; 
+    
+    }

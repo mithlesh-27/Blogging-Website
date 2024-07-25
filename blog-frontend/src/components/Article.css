@@ -1,0 +1,15 @@
+.article {
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.article h1 {
+    margin-bottom: 1em;
+}
+
+.article p {
+    color: #333333;
+}
